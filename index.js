@@ -42,6 +42,6 @@ let endNumber = 42
 
 let password = firstNameManipulated + lastNameManipulated + favouriteColourManipulated + endNumber
 
-alert(password)
-console.log(password)
+alert(`Your Password is ${password}, but don't tell anyone!`)
+console.log(`Password: ${password}`)
 
